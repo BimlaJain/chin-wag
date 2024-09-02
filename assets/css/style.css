@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+
+.sec5-bg-color {
+    background-color: rgba(122, 158, 159, 0.83);
+    background-size: cover;
+}
+
+.sec5-heading {
+    font-family: "Roboto Slab", serif;
+    font-size: 45px;
+    font-weight: 900;
+    line-height: 130%;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+    max-width: 593px;
+}
+
+.sec5-pera {
+    font-family: "Roboto Slab", serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 28px;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+    max-width: 566px;
+    padding-bottom: 25px;
+}
+
+.sec5-btn {
+    font-family: "Roboto Slab", serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 21.1px;
+    text-align: center;
+    padding: 15px 27px;
+    border-radius: 65px;
+    background: rgba(79, 99, 103, 1);
+    color: rgba(255, 255, 255, 1);
+    border: 0;
+    transition: all 300ms linear ease-in-out;
+}
+
+
+.sec5-btn:hover,
+.sec5-btn:focus {
+
+    color: rgba(79, 99, 103, 1);
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.sec5-col-img-w {
+    width: 606px;
+    object-fit: cover;
+    background-size: cover;
+}
+
+.sec5-col-img-w {
+    max-width: 549px;
+}
+
+.sec5-img {
+    top: 6%;
+    left: 2%;
+}
+
+
+.sec5-py {
+    padding-top: 103px;
+    padding-bottom: 103px;
+}
+
+
+.max-w-1181 {
+    max-width: 1181px !important;
+}
+
+@media (max-width:576px) {
+    .sec5-heading {
+        font-size: 26px;
+        text-align: center !important;
+    }
+
+    .sec5-pera {
+        font-family: "Roboto Slab", serif;
+        font-size: 14px;
+        text-align: center !important;
+        padding-bottom: 18px;
+    }
+        .sec5-col-img-w {
+            max-width: 355px !important;
+        }
+                .sec5-py {
+                    padding-top: 45px;
+                    padding-bottom: 38px;
+                }
+}
